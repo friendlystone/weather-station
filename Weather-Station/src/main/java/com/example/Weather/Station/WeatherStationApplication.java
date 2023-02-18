@@ -1,11 +1,9 @@
-package com.example.Weather.Station.backend;
+package com.example.Weather.Station;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer
 public class WeatherStationApplication {
 
 	public static void main(String[] args) {
